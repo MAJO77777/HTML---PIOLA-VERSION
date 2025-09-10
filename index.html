@@ -14,67 +14,124 @@
     <main>
         <div style="display: flex; justify-content: center;">
             <table border="1">
-                <caption>Tabla de datos del Ingeniero</caption>
-                <br>
+                <caption>Tabla de datos del futuro Ingeniero <br> </caption>
                 <thead>
                     <tr> <!--Fila 1-->
                         <th>Nombre</th>
                         <th>Edad</th>
-                        <th>Se baña?</th>
                         <th>Estado Civil</th>
-                        <th>Gay?</th>
+                        <th>Gmail</th>
+                        <th>Telefono</th>
+                        <th>Instagram</th>
+                        <th>Facebook</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Maria Jose</td>
+                        <td>Maria Jose Muñoz Keim</td>
                         <td>21</td>
-                        <td>A veces</td>
-                        <td>En sagrado matrimonio</td>
-                        <td>No</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>Kuka</td>
+                        <td>Lourdes Palermo</td>
                         <td>21</td>
-                        <td>Nos hace creer que si</td>
-                        <td>En matrimonio Gay</td>
-                        <td>Si</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>Laiza</td>
+                        <td>Areliz Funes</td>
                         <td>20</td>
-                        <td>No</td>
-                        <td>NN</td>
-                        <td>No se sabe</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>Kulote</td>
-                        <td>23?</td>
-                        <td>Si</td>
-                        <td>Dueña de su vida </td>
-                        <td>Aun existe la duda</td>
+                        <td>Julieta Martina Ceballe</td>
+                        <td>23</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
                     </tr>
                     <tr>
-                        <td>Carlax</td>
-                        <td>20?</td>
-                        <td>En duda</td>
-                        <td>En matrimonio heterosexual </td>
-                        <td>No?</td>
+                        <td>Carla Fernandez</td>
+                        <td>20</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
                     </tr>
                 </tbody>
                 <tfoot>
                     <tr>
-                        <th colspan="2">Egresados:</th> <!--Mediante el colspan le decimos cuantas columnas ocupa la celda-->
-                        <td colspan="3" style="text-align: center;">De eso no se habla</td> <!--El style lo use para centrar el texto-->
+                        <th colspan="2">Cantidad de Usuarios:</th> <!--Mediante el colspan le decimos cuantas columnas ocupa la celda-->
+                        <td colspan="5" style="text-align: center;">5</td> <!--El style lo use para centrar el texto-->
                     </tr>
                 </tfoot>
             </table>
         </div>
+        
+        <!--Parte del Formulario-->
 
-        <form>
+        <h2 style="text-align: center;">Formulario</h2>
 
-        </form>
+        <div style="display: flex; justify-content: center;"> <!--Alineacion al centro-->
+            <form>
+                <table>
 
+                    <tr>
+                        <th style="text-align: left;"> <label for="Nombre">Nombre: </th>
+                        <th> <input type="text" id="Nombre"></label> </th>
+                    </tr>
+                        
+                    <tr>
+                        <th style="text-align: left;"><label for="Edad" >Edad: </th>
+                        <th><input type="text" id="Edad"></label></th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: left;"><label for="Estado Civil">Estado Civil : </th>
+                            <th style="text-align: left;"><select id="Estado Civil">
+                                <option value="Casado">Casado</option>
+                                <option value="Soltero">Soltero</option>
+                                <option value="Viudo">Viudo</option>
+                                <option value="Dueño de mi vida">Dueño de mi vida</option>
+                            </select> </th>
+                        </label>
+                    </tr>
+                    <tr>
+                        <th style="text-align: left;"><label for="Gmail">Gmail: </th>
+                        <th><input type="text" id="Gmail"></label></th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: left;"><label for="Telefono">Telefono: </th>
+                        <th><input type="text" id="Telefono"></label></th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: left;"><label for="Instagram">Instagram: </th>
+                        <th><input type="text" id="Instagram"></label></th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: left;"><label for="Facebook">Facebook: </th>
+                        <th><input type="text" id="Facebook"></label> </th>
+                    </tr>
+                    <tr>
+                        <th style="text-align: left;"><label fpr="Enviar">Enviar</label></th>
+                        <th style="text-align: left;"><input type="submit"></th>
+                    </tr>
+                </table>
+            </form>
+        </div>
 
         </main>
         <footer>
